@@ -1,0 +1,33 @@
+/* Cambiar la fuente general y el color de fondo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilizar tu foto de perfil para que sea redonda */
+img {
+    border-radius: 50%;
+    border: 3px solid #4a90e2;
+}
+
+/* Darle diseño a las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
